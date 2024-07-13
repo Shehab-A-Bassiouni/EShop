@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{93
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{4B4BC5C6-820B-4789-BE51-40686A9098D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogAPI", "CatalogAPI\CatalogAPI.csproj", "{4E731B7C-74AE-446F-98EB-A4E2D11673E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogAPI", "CatalogAPI\CatalogAPI.csproj", "{4E731B7C-74AE-446F-98EB-A4E2D11673E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{84E3555C-E7B2-46BE-A9BE-84CC76063935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks.csproj", "{DDE3EC7E-9923-4230-BB6B-411197085FC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{4E731B7C-74AE-446F-98EB-A4E2D11673E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E731B7C-74AE-446F-98EB-A4E2D11673E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E731B7C-74AE-446F-98EB-A4E2D11673E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE3EC7E-9923-4230-BB6B-411197085FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE3EC7E-9923-4230-BB6B-411197085FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE3EC7E-9923-4230-BB6B-411197085FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE3EC7E-9923-4230-BB6B-411197085FC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4B4BC5C6-820B-4789-BE51-40686A9098D8} = {93AAFB14-30C1-46F8-B873-EFE26B93364D}
 		{4E731B7C-74AE-446F-98EB-A4E2D11673E1} = {4B4BC5C6-820B-4789-BE51-40686A9098D8}
+		{DDE3EC7E-9923-4230-BB6B-411197085FC0} = {84E3555C-E7B2-46BE-A9BE-84CC76063935}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9E2F6A96-A58E-478C-9887-7140016E26F1}
